@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+TC&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+    <title>于斌樞機主教剪報數位典藏</title>
+  </head>
+  <body>
+    <nav>
+      <div class="max-content navbar">
+        <div class="nav-logo">
+          <img src="/images/logo.png" alt="輔仁大學">
+        </div>
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a href="index.html">首頁</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="notification.html">公告事項</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="about.html">緣起</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="timeline.html">于斌樞機主教年表</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="">著作權聲明</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="">登入</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="head">
+        <div class="search-box max-content">
+          <div class="search-form-row">
+            <div class="search-form-col">
+              <select class="form-select">
+                <option value="" selected>題名</option>
+              </select>
+            </div>
+            <div class="search-form-col">
+              <input type="search" placeholder="關鍵字" class="form-control">
+            </div>
+          </div>
+          <div class="search-form">
+            <div class="search-form-row">
+              <div class="search-form-col text">
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword1" id="keyword1-and">
+                  <label for="keyword1-and">
+                    and
+                  </label>
+                </div>
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword1" id="keyword1-or">
+                  <label for="keyword1-or">
+                    or
+                  </label>
+                </div>
+              </div>
+              <div class="search-form-col">
+                <select class="form-select">
+                  <option value="" selected>題名</option>
+                </select>
+              </div>
+              <div class="search-form-col">
+                <input type="search" placeholder="關鍵字" class="form-control">
+              </div>
+            </div>
+            <div class="search-form-row">
+              <div class="search-form-col text">
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword2" id="keyword2-and">
+                  <label for="keyword2-and">
+                    and
+                  </label>
+                </div>
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword2" id="keyword2-or">
+                  <label for="keyword2-or">
+                    or
+                  </label>
+                </div>
+              </div>
+              <div class="search-form-col">
+                <select class="form-select">
+                  <option value="" selected>題名</option>
+                </select>
+              </div>
+              <div class="search-form-col">
+                <input type="search" placeholder="關鍵字" class="form-control">
+              </div>
+            </div>
+            <div class="search-form-row">
+              <div class="search-form-col text">
+                年代
+              </div>
+              <div id="year-picker-from" class="search-form-col">
+                <input class="year-picker"  type="text" placeholder="1900年">
+              </div>
+              <div class="from">~</div>
+              <div id="year-picker-to" class="search-form-col">
+                <input class="year-picker" type="text" placeholder="1990年">
+              </div>
+            </div>
+            <div class="search-form-bottom">
+              <div class="search-form-col text">
+              </div>
+              <div class="search-form-col">
+              </div>
+              <div class="search-form-col search-button">
+                <button id="reset">重設</button>
+                <button id="search">檢索</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content max-content">
+        <h1>南京宗座代牧</h1>
+        <div class="search-more">
+          <input type="search" placeholder="再檢索" class="form-control search-input">
+        </div>
+        <div class="search-result">
+          <div class="total">共有110筆資料</div>
+          <div class="result-list">
+            <div class="list-header">
+              <div class="data-id"></div>
+              <div class="data-title">題名</div>
+              <div class="data-date">刊載日期</div>
+              <div class="data-source">報刊名稱</div>
+              <div class="data-source-id">報刊版次</div>
+              <div class="data-pic"></div>
+            </div>
+            <ul class="result list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="data-id">1.</div>
+                <div class="data-title">具票能聞一童先答空後答重，生族不也治感？著賽直經女站南有然影麼百示完玩外或不頭裡保又在用上查月？國年而日簡的水門使務。</div>
+                <div class="data-date">2006-04-03</div>
+                <div class="data-source">聯合晚報</div>
+                <div class="data-source-id">8</div>
+                <div class="data-pic">
+                  <img src="/images/news.png">
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="data-id">2.</div>
+                <div class="data-title">具票能聞一童先答空後答重，生族不也治感？著賽直經女站南有然影麼百示完玩外或不頭裡保又在用上查月？國年而日簡的水門使務。</div>
+                <div class="data-date">2006-04-03</div>
+                <div class="data-source">聯合晚報</div>
+                <div class="data-source-id">8</div>
+                <div class="data-pic">
+                  <img src="/images/news.png">
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="data-id">3.</div>
+                <div class="data-title">量生現，是水是選母喜本實，國身絕高著關留源環裡得頭許……</div>
+                <div class="data-date">2006-04-03</div>
+                <div class="data-source">聯合晚報</div>
+                <div class="data-source-id">8</div>
+                <div class="data-pic">
+                  <img src="/images/news.png">
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="data-id">4.</div>
+                <div class="data-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus justo sed magna auctor</div>
+                <div class="data-date">2006-04-03</div>
+                <div class="data-source">聯合晚報</div>
+                <div class="data-source-id">8</div>
+                <div class="data-pic">
+                  <img src="/images/news.png">
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="data-id">5.</div>
+                <div class="data-title">具票能聞一童先答空後答重，生族不也治感？著賽直經女站南有然影麼百示完玩外或不頭裡保又在用上查月？國年而日簡的水門使務。</div>
+                <div class="data-date">2006-04-03</div>
+                <div class="data-source">聯合晚報</div>
+                <div class="data-source-id">8</div>
+                <div class="data-pic">
+                  <img src="/images/news.png">
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="data-id">50.</div>
+                <div class="data-title">具票能聞一童先答空後答重，生族不也治感？著賽直經女站南有然影麼百示完玩外或不頭裡保又在用上查月？國年而日簡的水門使務。</div>
+                <div class="data-date">2006-04-03</div>
+                <div class="data-source">聯合晚報</div>
+                <div class="data-source-id">8</div>
+                <div class="data-pic">
+                  <img src="/images/news.png">
+                </div>
+              </a>
+            </ul>
+            <div class="pagination">
+              <button class="prev button">
+                <img class="normal" src="/images/btn-left-b.png">
+                <img class="hover upsidedown" src="/images/btn-right-w.png">
+              </button>
+              <ul class="pages list-group list-group-horizontal">
+                <a href="#" class="list-group-item list-group-item-action">1</a>
+                <a href="#" class="list-group-item list-group-item-action">2</a>
+                <a href="#" class="list-group-item list-group-item-action">3</a>
+                <a href="#" class="list-group-item list-group-item-action">4</a>
+                <a href="#" class="list-group-item list-group-item-action">5</a>
+                <a href="#" class="list-group-item list-group-item-action">...</a>
+                <a href="#" class="list-group-item list-group-item-action">11</a>
+              </ul>
+              <button class="next button">
+                <img class="normal upsidedown" src="/images/btn-left-b.png">
+                <img class="hover" src="/images/btn-right-w.png">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="contact max-content">
+        <p class="title">輔仁大學校史室</p>
+        <p class="content">新北市新莊區中正路510號輔仁大學校史室</p>
+        <p class="content">聯絡電話：（02）2905-3046</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.main-content {
+  display: flex;
+  position: relative;
+  min-height: calc(100vh - 195px);
+}
+.figure {
+  width: 50%;
+  overflow: hidden;
+}
+.figure img {
+  width:  100%;
+  height:  auto;
+}
+.content-box {
+  max-width: 766px;
+  padding: 40px 6.8% 0;
+}
+h1{
+  font-family: 'Noto Sans TC';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #333333;
+  padding-bottom: 24px;
+  margin: 0;
+}
+.desc {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #4F4F4F;
+  padding-bottom: 40px;
+}
+.link~.link {
+  margin-left: 24px;
+}
+.link h3{
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+  color: #333333;
+  margin: 0;
+}
+.link .url{
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #333333;
+  margin: 0;
+  text-decoration: none;
+}

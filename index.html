@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+TC&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+    <title>于斌樞機主教剪報數位典藏</title>
+  </head>
+  <body>
+    <nav>
+      <div class="max-content navbar">
+        <div class="nav-logo">
+          <img src="/images/logo.png" alt="輔仁大學">
+        </div>
+        <ul class="nav-links">
+          <li class="nav-link active">
+            <a href="index.html">首頁</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="notification.html">公告事項</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="about.html">緣起</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="timeline.html">于斌樞機主教年表</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="">著作權聲明</a>
+          </li>
+          <li class="nav-seperate">/</li>
+          <li class="nav-link">
+            <a href="">登入</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="main-content max-content">
+        <div class="search-box">
+          <div class="title">
+            <h1>于斌樞機主教剪報數位典藏</h1>
+            <p class="desc">輔仁大學校史室于斌樞機剪報數位檢索系統收錄1936年至2001年有關于斌樞機之相關報導，<br>而這些剪報資料可視為係于斌樞機在宗教、政治外交、社會及教育文化等層面上具有影響力之重要紀錄。</p>
+          </div>
+          <div class="search-form">
+            <div class="search-form-row">
+              <div class="search-form-col">
+                <select class="form-select">
+                  <option value="" selected>題名</option>
+                </select>
+              </div>
+              <div class="search-form-col">
+                <input type="search" placeholder="關鍵字" class="form-control">
+              </div>
+            </div>
+            <div class="search-form-row">
+              <div class="search-form-col text">
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword1" id="keyword1-and">
+                  <label for="keyword1-and">
+                    and
+                  </label>
+                </div>
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword1" id="keyword1-or">
+                  <label for="keyword1-or">
+                    or
+                  </label>
+                </div>
+              </div>
+              <div class="search-form-col">
+                <select class="form-select">
+                  <option value="" selected>題名</option>
+                </select>
+              </div>
+              <div class="search-form-col">
+                <input type="search" placeholder="關鍵字" class="form-control">
+              </div>
+            </div>
+            <div class="search-form-row">
+              <div class="search-form-col text">
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword2" id="keyword2-and">
+                  <label for="keyword2-and">
+                    and
+                  </label>
+                </div>
+                <div class="radio-wrap">
+                  <input type="radio" name="keyword2" id="keyword2-or">
+                  <label for="keyword2-or">
+                    or
+                  </label>
+                </div>
+              </div>
+              <div class="search-form-col">
+                <select class="form-select">
+                  <option value="" selected>題名</option>
+                </select>
+              </div>
+              <div class="search-form-col">
+                <input type="search" placeholder="關鍵字" class="form-control">
+              </div>
+            </div>
+            <div class="search-form-row">
+              <div class="search-form-col text">
+                年代
+              </div>
+              <div id="year-picker-from" class="search-form-col">
+                <input class="year-picker"  type="text" placeholder="1900年">
+              </div>
+              <div class="from">~</div>
+              <div id="year-picker-to" class="search-form-col">
+                <input class="year-picker" type="text" placeholder="1990年">
+              </div>
+            </div>
+            <div class="search-form-bottom">
+              <div class="notice">圖檔閱覽僅限於輔仁大學校史室</div>
+              <div class="search-button">
+                <button id="search">檢索</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <img src="images/bg1.png">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="contact max-content">
+        <p class="title">輔仁大學校史室</p>
+        <p class="content">新北市新莊區中正路510號輔仁大學校史室</p>
+        <p class="content">聯絡電話：（02）2905-3046</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>

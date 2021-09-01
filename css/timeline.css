@@ -1,0 +1,93 @@
+.main-content {
+  padding: 24px 130px;
+}
+.breadcrumbs {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #333333;
+}
+.breadcrumbs span{
+  margin-right: 16px;
+}
+
+h1{
+  margin: 0;
+  padding: 8px 0 24px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  color: #3C2F1E;
+}
+.timeline {
+  padding: 64px 11.77% 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.time-container {
+  display: flex;
+}
+.time-container + .time-container{
+  margin-top: 16px;
+}
+.pics {
+  width: 17.72%;
+  margin-right: 40px;
+  flex-shrink: 0;
+  position: relative;
+}
+.pics.line::after {
+  position: absolute;
+  right: -28px;
+  top: 15px;
+  content: '';
+  display: block;
+  width: 32px;
+  height: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../images/timeline.svg');
+}
+.pic {
+  margin-bottom: 8px;
+}
+.detail {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #828282;
+}
+.detail+.pic {
+  margin-top: 16px;
+}
+.time {
+  display: flex;
+}
+.time + .time {
+  margin-top: 24px;
+}
+.year {
+  flex-shrink: 0;
+  width: 56px;
+  margin: 0 24px 0 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+}
+.desc {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4F4F4F;
+}
