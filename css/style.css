@@ -32,7 +32,7 @@ input[type=search]::-webkit-search-cancel-button{
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  background-image: url('..images/clear.png');
+  background-image: url('images/clear.png');
   background-size: cover;
   background-repeat: no-repeat;
   }
@@ -46,7 +46,7 @@ input[type=search]::-webkit-search-cancel-button{
   background-color: red;
   }
 select,.form-select {
-  background-image: url('..images/down-arrow.png');
+  background-image: url('images/down-arrow.png');
   background-size: 12px 12px;
 }
 .radio-wrap {
@@ -103,7 +103,7 @@ input.year-picker {
   line-height: 20px;
   color: #333333;
   position: relative;
-  background-image: url(..images/datepicker.png);
+  background-image: url(images/datepicker.png);
   background-repeat: no-repeat;
   background-size: 16px 17px;
   background-position: 16px 13px;
@@ -299,7 +299,7 @@ color: rgba(255, 255, 255, 0.6);
   height: 32px;
   padding: 0;
   border: none;
-  background-image: url(..images/close.svg);
+  background-image: url(images/close.svg);
 }
 .modal-content {
   border: none;

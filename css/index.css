@@ -19,9 +19,9 @@ main {
   overflow: hidden;
   background-image :
   linear-gradient(90deg, #F5EFE8 0%, rgba(245, 239, 232, 0) 100%),
-  url(..images/bg2.png),
-  url(..images/bg3.png),
-  url(..images/bg4.png);
+  url(images/bg2.png),
+  url(images/bg3.png),
+  url(images/bg4.png);
 
   background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
   background-position: 0 0, top right, bottom left, 0 0;

@@ -63,7 +63,7 @@ input.search-input {
   position: absolute;
   display: block;
   content: '';
-  background-image: url(..images/search.png);
+  background-image: url(images/search.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
