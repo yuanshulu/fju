@@ -15,7 +15,7 @@ button {
   font-family: Lato;
   font-weight: bold;
 }
-input[type="text"],input[type="search"],select,.form-select {
+input[type="text"],input[type="search"],input[type="password"],select,.form-select {
   padding: 9px 16px;
   border: 1px solid #BDBDBD;
   border-radius: 2px;
